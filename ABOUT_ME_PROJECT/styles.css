@@ -1,0 +1,53 @@
+
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px;
+    border: 1px solid black;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 3px;
+    text-align: left;
+    vertical-align: top;
+    width: 131px;
+}
+
+#empty {
+    background-color: gray;
+}
+
+main {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul, ol {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+#essay_section {
+    text-align: left;
+}
+
+#essay_section p {
+    text-indent: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    border-radius: 5%;
+}
+
+div {
+    float: right;
+    margin: 0 0 15px 20px;
+    padding: 15px;
+    text-align: center;
+}
