@@ -18,13 +18,13 @@ Reflection (1-2 paragraphs):  I really enjoyed writing this program, but had tro
 <html lang="eng">
     <head>
         <title>About Taylor Wilson</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="/styles/styles.css">
     </head>
 
     <body>
         <main>
             <header>
-                <h1>Taylor Wilson</h1>
+                <h1 id="myName">Taylor Wilson</h1>
             </header>
             <hr>
             <div id="img_div">
@@ -54,7 +54,7 @@ Reflection (1-2 paragraphs):  I really enjoyed writing this program, but had tro
                 <p>Yeah I grew up in Utah, how could you tell?</p>
             </section>
 
-            <div id="poem_section">
+            <section id="poem_section">
                 <h2>Buttered Bliss</h2>
                 <p>The inspiration for this poem comes from Butter Pecan ice cream. It's seriously so good. Go buy some. From Walmart. The Great Value stuff. Trust me.</p>
                 <p id="haiku">Buttery Bliss Cream
@@ -63,7 +63,7 @@ Reflection (1-2 paragraphs):  I really enjoyed writing this program, but had tro
                     <br>
                     Delicious Ice Cream
                 </p>
-            </div>
+            </section>
 
             <section id="essay_section">
                 <h2>What I'm Interested In</h2>
@@ -75,7 +75,7 @@ Reflection (1-2 paragraphs):  I really enjoyed writing this program, but had tro
             <section id="schedule_section">
                 <h2>Class Schedule</h2>
                 <table>
-                    <caption><i>My class schedule&mdash;I know I switched the format, but I thought it fit my schedule better than an hour by hour</i></caption>
+                    <caption><i>My class schedule</i></caption>
                     <tr>
                         <th></th>
                         <th>Mon</th>
@@ -86,10 +86,10 @@ Reflection (1-2 paragraphs):  I really enjoyed writing this program, but had tro
                     </tr>
                     <tr>
                         <th>11:30am</th>
-                        <td rowspan="3">Web Dev</td>
+                        <td rowspan="3" class="webdev">Web Dev</td>
                         <td rowspan="2" id="empty"></td>
                         <td rowspan="4" id="empty"></td>
-                        <td rowspan="2">Biology</td>
+                        <td rowspan="2" class="biol">Biology</td>
                         <td rowspan="4" id="empty"></td>
                     </tr>
                     <tr>
@@ -97,46 +97,46 @@ Reflection (1-2 paragraphs):  I really enjoyed writing this program, but had tro
                     </tr>
                     <tr>
                         <th>12:30pm</th>
-                        <td rowspan="4">Data Fund</td>
+                        <td rowspan="4" class="datafund">Data Fund</td>
                         <td id="empty"></td>
                     </tr>
                     <tr>
                         <th>1:00pm</th>
-                        <td rowspan="2">Lunch</td>
-                        <td rowspan="4">Data Fund</td>
+                        <td rowspan="2" class="meal">Lunch</td>
+                        <td rowspan="4" class="datafund">Data Fund</td>
                     </tr>
                     <tr>
                         <th>1:30pm</th>
-                        <td rowspan="3">Biology</td>
-                        <td>Drive to study</td>
+                        <td rowspan="3" class="biol">Biology</td>
+                        <td class="travel">Drive to study</td>
                     </tr>
                     <tr>
                         <th>2:00pm</th>
-                        <td rowspan="3">Ex Sci</td>
-                        <td rowspan="6">Study/HW</td>
+                        <td rowspan="3" class="exsci">Ex Sci</td>
+                        <td rowspan="6" class="study">Study/HW</td>
                     </tr>
                     <tr>
                         <th>2:30pm</th>
-                        <td rowspan="2"><i>Break</i></td>
+                        <td rowspan="2" class="break"><i>Break</i></td>
                     </tr>
                     <tr>
                         <th>3:00pm</th>
-                        <td colspan="2"><i>Break</i></td>
+                        <td colspan="2" class="break"><i>Break</i></td>
                     </tr>
                     <tr>
                         <th>3:30pm</th>
-                        <td colspan="4"><i>Wish I was home</i></td>
+                        <td colspan="4" class="break"><i>Wish I was home</i></td>
                     </tr>
                     <tr>
                         <th>4:00pm</th>
-                        <td rowspan="2" colspan="4">Study/HW</td>
+                        <td rowspan="2" colspan="4" class="study">Study/HW</td>
                     </tr>
                     <tr>
                         <th>4:30pm</th>
                     </tr>
                     <tr>
                         <th>5:00pm</th>
-                        <td colspan="5">Drive home</td>
+                        <td colspan="5" class="travel">Drive home</td>
                     </tr>
                 </table>
             </section>

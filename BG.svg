@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="BG.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.63882477"
+     inkscape:cx="52.440045"
+     inkscape:cy="566.66557"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern10"
+       preserveAspectRatio="xMidYMid"
+       id="pattern12"
+       patternTransform="matrix(0.45673767,0,0,0.45673767,132.19645,203.21958)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern1"
+       preserveAspectRatio="xMidYMid"
+       id="pattern5"
+       patternTransform="translate(15.755873,15.327856)"
+       x="0"
+       y="0" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern1"
+       preserveAspectRatio="xMidYMid"
+       id="pattern4"
+       patternTransform="translate(-3.4033203e-6)" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="27.854087"
+       height="27.854087"
+       patternTransform="translate(149.01936,115.59446)"
+       preserveAspectRatio="xMidYMid"
+       id="pattern1"
+       inkscape:label="pattern1">
+      <path
+         sodipodi:type="star"
+         style="fill:#b3b3b3;stroke:none;stroke-width:7.99999"
+         id="path1"
+         inkscape:flatsided="false"
+         sodipodi:sides="4"
+         sodipodi:cx="13.927043"
+         sodipodi:cy="13.927043"
+         sodipodi:r1="13.927043"
+         sodipodi:r2="6.9635215"
+         sodipodi:arg1="1.5707963"
+         sodipodi:arg2="2.3561945"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="M 13.927043,27.854086 9.0030897,18.850996 0,13.927043 9.0030897,9.0030897 13.927043,0 l 4.923953,9.0030897 9.00309,4.9239533 -9.00309,4.923953 z" />
+    </pattern>
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="27.854087"
+       height="27.854087"
+       patternTransform="translate(149.01936,115.59446)"
+       preserveAspectRatio="xMidYMid"
+       id="pattern3"
+       inkscape:label="pattern3">
+      <rect
+         style="fill:url(#pattern4);stroke:none"
+         width="27.854088"
+         height="27.854088"
+         x="0"
+         y="0"
+         id="rect2" />
+    </pattern>
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="59.247588"
+       height="59.247588"
+       patternTransform="translate(117.94812,85.779722)"
+       preserveAspectRatio="xMidYMid"
+       id="pattern10"
+       inkscape:label="pattern10">
+      <rect
+         style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:58.9841"
+         id="rect6"
+         width="59.247589"
+         height="59.247589"
+         x="0"
+         y="0" />
+      <rect
+         style="fill:url(#pattern5);fill-opacity:1;stroke:none;stroke-width:0.999999"
+         width="27.854086"
+         height="27.854086"
+         x="15.755887"
+         y="15.32786"
+         id="rect4" />
+    </pattern>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="stroke:none;fill:url(#pattern10)"
+       transform="scale(0.26458333)"
+       width="59.247588"
+       height="59.247588"
+       x="117.94812"
+       y="85.779722"
+       id="rect10" />
+    <rect
+       style="fill:url(#pattern12);fill-opacity:1;stroke:none;stroke-width:8.46075"
+       id="rect11"
+       width="246.90962"
+       height="310.40854"
+       x="-22.044886"
+       y="-7.1625447" />
+  </g>
+</svg>
