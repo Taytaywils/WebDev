@@ -39,9 +39,13 @@ div, section {
     border-radius: 10px;
 }
 
-#personal_info_section, #book_section, #poem_section {
+#personal_info_section, #book_section, #poem_section, #essay_section {
     margin-right: 430px;
     padding: 0 15px 5px;
+}
+
+#essay_section {
+    margin-right: 0px;
 }
 
 .datafund {
