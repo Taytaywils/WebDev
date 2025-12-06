@@ -1,0 +1,154 @@
+header {
+    margin: px 0;
+}
+body {
+    font: Arial;
+    margin: 120px 20px 20px;
+    font-size: 12px;
+    background: url('../BG.svg') center/cover no-repeat fixed;
+}
+
+body p {
+    margin-bottom: 8px;
+}
+
+table {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px;
+    border-collapse: collapse;
+    box-shadow: 3px 3px 10px black;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+    vertical-align: top;
+    width: 90px;
+}
+
+th {
+    background-color: honeydew;
+}
+
+div, section {
+    
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+#personal_info_section, #book_section, #poem_section, #essay_section {
+    margin-right: 430px;
+    padding: 0 15px 5px;
+}
+
+#essay_section {
+    margin-right: 0px;
+}
+
+.datafund {
+    background-color: green;
+}
+
+.exsci {
+    background-color: lightblue;
+}
+
+.biol {
+    background-color: lightgreen;
+}
+
+.meal {
+    background-color: lightyellow;
+}
+
+.study {
+    background-color: pink;
+}
+
+.travel {
+    background-color: lightcoral;
+}
+
+.webdev {
+    background-color: bisque;
+}
+
+.break {
+    background-color: lightgray;
+}
+
+#empty {
+    background-color: gray;
+}
+
+main {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul, ol {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+#essay_section {
+    text-align: left;
+}
+
+#essay_section p {
+    text-indent: 30px;
+}
+
+#schedule_section {
+    margin-top: 12px;
+    padding: 10px 0px;
+}
+
+h2 {
+    margin-top: 13px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+img {
+    border-radius: 5%;
+}
+
+#img_div {
+    float: right;
+    margin: 0 0 15px 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+#myName {
+    font-size: 50px;
+    background: lightgray;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 400px;
+    margin: auto;
+    align-self: center;
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    align-self: center;
+    box-shadow: 2px 2px 5px black;
+    animation: 
+        myName 2s linear;
+    animation-delay: 0s;
+}
+
+@keyframes myName {
+    0%    { transform: translate(-600px) rotate(15deg); }
+    30%   { transform: translate(-60px) rotate(-15deg); }
+    40%   { transform: rotate(5deg); }
+    50%   { transform: translate(0px) rotate(0deg) scale(100%); }
+    75%   { transform: scale(400%) rotate(-180deg); }
+    100%  { transform: scale(100%) rotate(-360deg); }
+}
